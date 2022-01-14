@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0vh 5vh 0vh 5vh;
+}
+.topContainer {
+    justify-content: space-evenly;
+    display: flex;
+    height: 35vh;
+    margin: 5vh 0 5vh 0;
+    overflow: hidden;
+    width: 130vh;
+}
+.bottomContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+}
+.topBar {
+    font-size: 7vh;
+    background-color: #333333;
+    color: white;
+    padding-left: 2vh;
+}
+.info {
+    display: flex;
+    background-color: #fbfbfb;
+    border-radius: 5vh;
+    width: 130vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerHeader {
+    font-size: 4vh;
+    font-weight: bold;
+}
+button {
+    min-width: 15vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    border-width: 1px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+#bankButton {
+    background-color: #edef4d;
+}
+#workButton {
+    background-color: #4d70f0;
+}
+#loanButton {
+    background-color: #4bf1a1;
+}
+.topContainerItems {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    border-radius: 5vh;
+    padding: 2vh;
+    width: 30vh;
+    justify-content: space-between;
+}
+#buyButton {
+    background-color: #4cc9f1;
+}
+.infoTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    margin: 0 5vh 0 5vh;
+}
+#infoTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+.selector {
+    margin: 3vh 0vh 3vh 0vh;
+}
+.features {
+    font-weight: bold;
+}
+.specsContainer {
+    height: 30vh;
+    overflow: auto;
+}
+.workButtons {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.infoImage {
+    min-width: 30vh;
+    margin-left: 3vh;
+}
+.infoPriceContainer {
+    width: 30vh;
+    margin-right: 5vh;
+    justify-content: center;
+    text-align: center;
+}
+.infoImageFile {
+    width: 30vh;
+    height: auto;
+}
+#infoPrice {
+    font-size: 4vh;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    font-size: 2.5vh;
+}

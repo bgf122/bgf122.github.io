@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Komputer Store App</title>
+</head>
+<body>
+    <div class="topBar">
+        Komputer Store
+    </div>
+    <div class="container">
+        <div class="topContainer">
+            <div class="topContainerItems">
+                <div>
+                    <div class="containerHeader">Joe Banker</div>
+                    <div id="bankBalance"></div>
+                    <div id="debt"></div>
+                </div>
+                <button id="loanButton"></button>
+            </div>
+            <div class="topContainerItems" >
+                <div>
+                    <div class="containerHeader">Work</div>  
+                    <div id="paySum"></div>
+                </div> 
+                <div class="workButtons">
+                    <button id="bankButton">Bank</button>
+                    <button id="workButton">Work</button>
+                </div>
+            </div>
+            <div class="topContainerItems">
+                <div class="containerHeader">Laptops</div>
+                <select class="selector" name="laptops" id="laptops"></select>
+                <div class="specsContainer">
+                    <span class="features">Features: </span>
+                    <span class="specs" id="specs"></span>
+                </div>
+            </div>
+        </div>
+        <div class="bottomContainer">
+            <div class="info">
+                <div class="infoImage" id="infoImage"></div>
+                <div class="infoTextContainer">
+                    <span id="infoTitle"></span>
+                    <span id="infoDescription"></span>
+                </div>
+                <div class="infoPriceContainer">
+                    <span id="infoPrice"></span>
+                    <button id="buyButton">Buy now</button>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

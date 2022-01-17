@@ -49,8 +49,18 @@ button {
 #workButton {
     background-color: #4d70f0;
 }
-#loanButton {
+#loanButtonContainer {
+    margin: 0 auto 0 auto;
+    align-content: center;
+}
+#debtButtonContainer {
+    margin: 5vh auto 0 auto;
+}
+.loanButton {
     background-color: #4bf1a1;
+}
+.debtButton {
+    background-color: darkred;
 }
 .topContainerItems {
     display: flex;
